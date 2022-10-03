@@ -1,6 +1,6 @@
 // ==UserScript==
 // @name         🐭️ MouseHunt - No Share Buttons
-// @version      1.0.0
+// @version      1.0.1
 // @description  Remove the "Share" buttons that prompt you to share on Facebook.
 // @license      MIT
 // @author       bradp
@@ -19,9 +19,15 @@
 	.journalactions a[data-type="journal"],
 	*[src="https://www.mousehuntgame.com//images/ui/buttons/share_green.gif"],
 	.socialLink,
-	.pageSidebarView .fb-page
+	.canShare,
+	.pageSidebarView .fb-page,
+	.canShare .larryTip,
 	.communityGroupView-ad {
 		display: none;
+	}
+
+	#OnboardArrow.onboardPopup.canShare .closeButton {
+		left: 0;
 	}`;
 	document.head.appendChild(addStyles);
 })());
