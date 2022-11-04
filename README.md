@@ -1,4 +1,4 @@
-# mh-no-share
+# 🐭️ MouseHunt - No Share Buttons
 
 A Userscript for [MouseHunt](https://mousehuntgame.com) to remove the "Share" buttons.
 
