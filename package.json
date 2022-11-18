@@ -1,6 +1,6 @@
 {
   "name": "mh-no-share",
-  "version": "1.0.4",
+  "version": "1.0.5",
   "description": "",
   "main": "mh-no-share.user.js",
   "scripts": {
