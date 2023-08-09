@@ -30,7 +30,6 @@
 
   #OnboardArrow.onboardPopup.canShare .closeButton {
     left: 0;
-  }
-  `;
+  }`;
   document.head.appendChild(addStyles);
 })());
