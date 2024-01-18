@@ -1,6 +1,6 @@
 // ==UserScript==
 // @name         🐭️ MouseHunt - No Share Buttons
-// @version      1.1.1
+// @version      1.2.0
 // @description  Remove the "Share" buttons that prompt you to share on Facebook.
 // @license      MIT
 // @author       bradp
@@ -9,6 +9,7 @@
 // @icon         https://i.mouse.rip/mouse.png
 // @grant        none
 // @run-at       document-end
+// @require      https://cdn.jsdelivr.net/npm/script-migration@1.1.1
 // ==/UserScript==
 ((function () {
   'use strict';
@@ -32,4 +33,6 @@
     left: 0;
   }`;
   document.head.appendChild(addStyles);
+
+  migrateUserscript('🐭️ MouseHunt - No Share Buttons', 'https://greasyfork.org/en/scripts/452434-mousehunt-no-share-buttons');
 })());
